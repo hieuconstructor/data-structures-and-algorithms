@@ -12,7 +12,7 @@ insertSort(List<int> numbers) {
   for (i = 1; i < numbers.length; i++) {
     j = i - 1;
     temp = numbers[i];
-    while (numbers[j] > temp && j >= 0) {
+    while (numbers[j] < temp && j >= 0) {
       numbers[j + 1] = numbers[j];
       j--;
     }
@@ -28,3 +28,4 @@ void printListNumber(List<int> numbers) {
     print(numbers[i]);
   }
 }
+//Đang còn một số lỗi
