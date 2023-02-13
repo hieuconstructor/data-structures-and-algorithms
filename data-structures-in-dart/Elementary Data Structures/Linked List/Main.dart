@@ -10,7 +10,7 @@
   2. Hold a reference to the next node. A null reference indicates the end of the list.
 */
 
-import 'Linked-lists.dart';
+import 'linked-lists.dart';
 
 void main() {
   //Create Node

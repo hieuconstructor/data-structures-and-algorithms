@@ -1,4 +1,4 @@
-import 'Queue.dart';
+import '../lib/queue.dart';
 
 void main() {
   final queue = QueueList<String>();
