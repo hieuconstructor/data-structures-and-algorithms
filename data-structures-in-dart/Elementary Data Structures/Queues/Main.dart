@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import '../lib/queue.dart';
+=======
+import 'Queue.dart';
+>>>>>>> parent of 94aab05 (Revert "Data structures in dart")
 
 void main() {
   final queue = QueueList<String>();

@@ -10,7 +10,11 @@
   2. Hold a reference to the next node. A null reference indicates the end of the list.
 */
 
+<<<<<<< HEAD
 import 'linked-lists.dart';
+=======
+import 'Linked-lists.dart';
+>>>>>>> parent of 94aab05 (Revert "Data structures in dart")
 
 void main() {
   //Create Node
